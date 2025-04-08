@@ -1,0 +1,10 @@
+
+/* Центр (Панель контенту) */
+.content-pane {
+    -fx-background-color: #fff;
+
+    -fx-border-color: #5e5e9e;
+    -fx-border-width: 3px 0 0 3px;
+
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 5); /* Тінь */
+}

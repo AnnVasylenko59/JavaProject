@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../Stylesheets/LoginDesign.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane layoutX="310.0" layoutY="10.0" prefHeight="400.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Label layoutX="33.0" layoutY="48.0" styleClass="head-label" text="Log in Account" textFill="#7177bf" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="45.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <VBox layoutX="118.0" layoutY="106.0" prefHeight="98.0" prefWidth="225.0" spacing="15.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="45.0">
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <TextField fx:id="si_phone" prefHeight="30.0" prefWidth="220.0" promptText="Phone" styleClass="textfield" />
+         <TextField fx:id="si_password" prefHeight="30.0" prefWidth="220.0" promptText="Password" styleClass="textfield" />
+      </VBox>
+      <Hyperlink fx:id="si_forgotPass" layoutX="33.0" layoutY="240.0" text="Forgot password?" />
+      <Button fx:id="si_signinBtn" layoutX="33.0" layoutY="270.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" text="Sign In" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="45.0" />
+   </AnchorPane>
+   <AnchorPane layoutX="10.0" layoutY="132.0" prefHeight="400.0" prefWidth="300.0" AnchorPane.bottomAnchor="-0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Label layoutX="33.0" layoutY="44.0" styleClass="head-label" text="Register Account" textFill="#7177bf" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="45.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <VBox layoutX="30.4" layoutY="95.0" prefHeight="187.0" prefWidth="225.0" spacing="15.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="45.0">
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <TextField fx:id="su_name" prefHeight="30.0" prefWidth="220.0" promptText="Name" styleClass="textfield" />
+         <TextField fx:id="su_surname" prefHeight="30.0" prefWidth="220.0" promptText="Surname" styleClass="textfield" />
+         <TextField fx:id="su_phone" prefHeight="30.0" prefWidth="220.0" promptText="Phone" styleClass="textfield" />
+         <TextField fx:id="su_password" prefHeight="30.0" prefWidth="220.0" promptText="Password" styleClass="textfield" />
+      </VBox>
+      <Button fx:id="su_signupBtn" layoutX="30.4" layoutY="325.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" text="Sign Up" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="45.0" />
+   </AnchorPane>
+   <AnchorPane fx:id="side_form" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../Stylesheets/LoginDesign.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <FontAwesomeIcon fill="#7177bf" glyphName="CAR" layoutX="81.0" layoutY="163.0" size="10em" />
+      <Label layoutX="41.0" layoutY="186.0" text="Transport Sharing System" textFill="#7177bf">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="side_message" layoutX="60.0" layoutY="309.0" text="Don't have an account yet?" textFill="#6d6c9b">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="side_button" layoutX="30.0" layoutY="335.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="239.0" styleClass="create-btn" stylesheets="@../Stylesheets/LoginDesign.css" text="Create New Account" />
+   </AnchorPane>
+</AnchorPane>

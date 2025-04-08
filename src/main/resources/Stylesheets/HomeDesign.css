@@ -1,0 +1,73 @@
+/* Button Styles */
+Button {
+    -fx-background-color: linear-gradient(to bottom, #b8c6e3, #8a9cc3); /* Градієнт синього */
+    -fx-background-radius: 8px;
+
+    -fx-text-fill: #2d3e50;
+    -fx-font-size: 14px;
+}
+
+Button:hover {
+    -fx-cursor: hand;
+
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* Верхня частина (шапка) */
+.top-bar {
+    -fx-background-color: linear-gradient(to right, #bef1f3, #acb6e5);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.5, 2, 2);
+}
+
+/* Стиль заголовка Transport Sharing System */
+.top-title {
+    -fx-text-fill: #5E5E9E;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* Текст з іменем */
+.user-label {
+    -fx-text-fill: #5E5E9E;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* Ліва частина (панель навігації) */
+.sidebar {
+    -fx-background-color: linear-gradient(to bottom right, #bef1f3, #acb6e5);
+}
+
+/* Активна кнопка */
+.selected-button {
+    -fx-background-color: linear-gradient(to bottom, rgba(139, 161, 223, 0.69), rgba(68, 102, 184, 0.69));
+    -fx-text-fill: rgba(255, 255, 255, 0.92);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0.0, 0, 2);
+    -fx-border-color: rgba(255, 255, 255, 0.55);
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+
+    /* Розширений фон навколо кнопки */
+    -fx-background-insets: -5;
+}
+
+/* Кнопка виходу */
+.logout-btn {
+    -fx-background-color: linear-gradient(to bottom, #e57373, #c84545); /* Градієнт червоного */
+    -fx-background-radius: 8px; /* Закруглені кути */
+
+    -fx-text-fill: #ffffff; /* Білий текст */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+.logout-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #ef5350, #b71c1c);
+    -fx-cursor: hand;
+
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}

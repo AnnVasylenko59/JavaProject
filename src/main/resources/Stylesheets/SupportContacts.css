@@ -1,0 +1,42 @@
+/* Заголовки "Contact Information" та "Social Media" */
+.main-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2d3e50;
+}
+
+/* Кожна секція підтримки (VBox) */
+.support-section {
+    -fx-background-color: #f9fbff;
+    -fx-background-radius: 10;
+    -fx-border-color: #b1b9f7;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+}
+
+/* Назва секції (Technical Support, тощо) */
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2d3e50;
+    -fx-underline: true;
+}
+
+/* Текст усередині блоків: email, phone */
+.info-text {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2d3e50;
+}
+
+/* Графік роботи */
+.time-text {
+    -fx-font-size: 13px;
+    -fx-text-fill: #4a4a4a;
+    -fx-font-style: italic;
+}
+
+/* Текст соцмереж */
+.social-text {
+    -fx-font-size: 14px;
+    -fx-text-fill: #3b3b6d;
+}

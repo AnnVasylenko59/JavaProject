@@ -1,0 +1,55 @@
+/* Заголовки секцій */
+.section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2d3e50;
+}
+
+/* Загальний фон VBox*/
+.rent-pane {
+    -fx-background-color: #f9fbff;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-color: #c3c8ff;
+    -fx-border-width: 2;
+}
+
+/* ComboBox (вибір моделі) */
+.combo-box {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #b1b9f7;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+/* Поле введення (кількість днів) */
+.input-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #b1b9f7;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+/* Кнопки */
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #7177bf;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 4, 0.5, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #6067bdff;
+}
+
+.button:disabled {
+    -fx-opacity: 0.6;
+    -fx-background-color: #a3a7d9;
+    -fx-cursor: default;
+}
